@@ -1,6 +1,6 @@
-body{
+/* body{
   background-color: #78cbff;
-}
+} */
 
 .head{
   display: inline-block;
@@ -68,4 +68,9 @@ button:hover {
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+input{
+  display: table;
+  padding: 10px;
 }
