@@ -1,35 +1,44 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+
+<head>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>My Travel Blog</title>
-  </head>
-  <body>
-<h1>My Travels</h1>
-<h2>Paris</h2>
-<h3>September 2016</h3>
-<nav>
-<li><a href="#highlights">Highlights</a></li>
-<li><a href="#story">Full Story</a></li>
-<ol>
-  <li><a href="#day1">Day 1</li>
-    <li><a href="#day2">Day 2</li>
-      <li><a href="#day3">Day 3</li>
-</ol>
-<li><a href="#contact">Contact</a></li>
-</nav>
-<div id="highlights">
-  <h3>My Favorite Spots in Paris</h3>
-  <ul>
+</head>
+
+<body>
+    <div id="heading">
+
+
+        <h1 class="head">My Travel Blog</h1>
+        <h2 class="head">Paris</h2>
+        <h3 class="head">September 2016</h3>
+    </div>
+    <nav>
+      <button><a href="#highlights" ><li class="line">Hightlights</li></a></button>
+      <div class="dropdown">
+  <button class="dropbtn"><a href="#story" ><li class="line">Full story</li></a></button>
+  <div class="dropdown-content">
+  <a href="#day1">Day 1</a>
+  <a href="#day2">Day 2</a>
+  <a href="#day3">Day 3</a>
+  </div>
+</div>
+           <button><a href="#contact"><li class="line">Contact</li></a> </button>
+    </nav>
+        <div id="highlights">
+            <h3>My Favorite Spots in Paris</h3>
+            <ul>
                 <li>The Eiffel Tower</li>
                 <li>The Louvre</li>
                 <li>Jardin du Luxembourg</li>
                 <li>Palais Garnier</li>
             </ul>
             <p>Click <a href="http://en.wikipedia.org/wiki/Paris" target="_blank">here</a> to learn more about paris</p>
-</div>
-<div id="story">
-  <h2>A Weekend on the Seine</h2>
+        </div>
+    <div id="story">
+        <h2>A Weekend on the Seine</h2>
         <p>I was lucky enough to spend three days visting Paris this month! I went with a friend and we were able to see many things while we were there!</p>
         <h4 id="day1">Day 1</h4>
         <p>On our first day, we started by visting <em>Monmartre</em> right away. Our second stop was the Eiffel Tower(Check out tha beautiful picture!) we ate dinner at a cute little bistro overlooking <em>la Seine.</em></p>
@@ -41,10 +50,12 @@
         <p>The picture below is of me visiting the <em>Arc de Triomphe.</em> It's huge! We also went to <em>le Musee D’Orsay.</em> Seeing the work of Renoir, Monet, and Van Gogh in person was completely breathtalking . I was surpised to see that museum also
             had many sculptures including those by Auguste Rodin , Paul Gauguin, and Alfred Barye.</p>
         <img src="https://drive.google.com/thumbnail?id=1ynLkhVKwzdJhykgc7BptmctjqDUemLFQ&authuser=0&sz=w2560-h1442" />
-</div>
-<div id="contact">
-  <h4>If you have any questions about my blog, here is my contact information:</h4>
-  <h4><strong>email:</strong> contact@mytravels.com|<strong>phone:</strong> 917-555-1098|<strong>address:</strong> 371 284th St, New Yort, NY, 10001</h4>
-</div>
-  </body>
+    </div>
+    <div id="contact">
+        <h4>If you have any questions about my blog, here is my contact information:</h4>
+        <h4><strong>email:</strong> contact@mytravels.com|<strong>phone:</strong> 917-555-1098|<strong>address:</strong> 371 284th St, New Yort, NY, 10001</h4>
+    </div>
+
+</body>
+
 </html>
